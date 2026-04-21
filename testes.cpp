@@ -52,7 +52,7 @@ int main() {
     }
 
     int maiorMedia = 0;
-    for(int i = 1; i<quantos; i++) {
+    for(int i = 1; i < quantos; i++) {
         if(medias[i]>medias[maiorMedia]) {
             maiorMedia = i;
         }
